@@ -56,6 +56,13 @@
   .card ul{list-style:none;margin-top:10px;display:grid;gap:6px}
   .card ul li{position:relative;padding-left:18px;font-size:14.5px;color:#43474c}
   .card ul li:before{content:"›";position:absolute;left:0;color:var(--blue);font-weight:800}
+  .feat{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center;margin-top:46px}
+  .feat+.feat{margin-top:56px}
+  .feat img{width:100%;border-radius:16px;box-shadow:0 16px 38px rgba(0,0,0,.12);aspect-ratio:16/10;object-fit:cover}
+  .feat.rev .txt{order:2}
+  .feat h3{color:var(--brown);font-size:clamp(22px,3vw,28px);font-weight:800;margin-bottom:10px}
+  .feat p{color:var(--muted);font-size:16.5px}
+  .feat .pts{margin-top:14px}
   .about{background:var(--cream)}
   .about .row{display:grid;grid-template-columns:1fr 1.15fr;gap:46px;align-items:center}
   .about img{width:100%;border-radius:18px;box-shadow:0 18px 40px rgba(0,0,0,.14)}
@@ -144,6 +151,37 @@
       <div class="card"><div class="ic">🔧</div><h3>Heizungs­modernisierung</h3><p>Alte Anlage raus, effiziente Technik rein. Eine neue Heizung amortisiert sich schnell – inkl. Förderberatung („Fördergeld sichern & Klima schützen").</p></div>
       <div class="card"><div class="ic">💧</div><h3>Warmwasser & Lüftung</h3><p>Warmwasserbereiter, kontrollierte Wohnungslüftung und passendes Zubehör – für gesundes Raumklima und Komfort.</p></div>
       <div class="card"><div class="ic">⚡</div><h3>Strom & Speicher</h3><p>Stromspeicher und stromerzeugende Heizgeräte für maximale Effizienz und mehr Unabhängigkeit.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="einblicke">
+  <div class="wrap">
+    <span class="kick">Einblicke</span>
+    <h2>Heizung &amp; Bad – sauber umgesetzt</h2>
+    <div class="feat">
+      <img src="bath.jpg" alt="Fugenlose Dusche / Wohlfühlbad">
+      <div class="txt">
+        <h3>Fugenlose Bäder zum Wohlfühlen</h3>
+        <p>Mit unserer Marke Duschking verwandeln wir Ihr altes Bad in eine moderne, barrierearme Wohlfühloase – mit bodengleicher, pflegeleichter Dusche oder Walk-in-Lösung. Schnell, sauber und ohne großen Baustellenlärm.</p>
+        <ul class="pts">
+          <li>Fugenlose Dusch- &amp; Badsanierung</li>
+          <li>Barrierearm &amp; pflegeleicht</li>
+          <li>Gemeinsame Planung nach Ihren Wünschen</li>
+        </ul>
+      </div>
+    </div>
+    <div class="feat rev">
+      <img src="modernref.jpg" alt="Modernisierte Heizungsanlage – Referenz">
+      <div class="txt">
+        <h3>Heizungsmodernisierung mit Weitblick</h3>
+        <p>Eine neue Heizungsanlage amortisiert sich in vergleichsweise kurzer Zeit und bietet das beste Kosten-Nutzen-Verhältnis. Wir tauschen alte Kessel gegen effiziente Technik – inklusive Förderberatung, damit Sie Fördergeld sichern und das Klima schützen.</p>
+        <ul class="pts">
+          <li>Effiziente Brennwert- &amp; Wärmepumpentechnik</li>
+          <li>Förder- &amp; Modernisierungsberatung inklusive</li>
+          <li>Saubere Umsetzung vom Fachbetrieb vor Ort</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
